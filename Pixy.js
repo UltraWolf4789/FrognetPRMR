@@ -3,7 +3,7 @@ const { URL } = require('url');
 const HttpProxyAgent = require('http-proxy-agent');
 
 // URL of the Python proxy server running on Replit
-const proxyUrl = /*Add Proxy*/;
+const proxyUrl = "https://www.pythonanywhere.com/user/UltraWolf/shares/7cd57b362f86462cac0e3c1b67c957fa/";
 
 // Configure the proxy agent
 const agent = new HttpProxyAgent(proxyUrl);
